@@ -1,0 +1,1616 @@
+GAME
+{
+	version = 1.8.1
+	Title = GIT太空计划！ (SANDBOX)
+	Description = No description available.
+	linkURL = 
+	linkCaption = 
+	Mode = SANDBOX
+	Status = 1
+	Seed = 754020334
+	ROCSeed = 259520314
+	scene = 5
+	editor = None
+	flag = Squad/Flags/China
+	launchID = 2
+	defaultVABLaunchSite = LaunchPad
+	defaultSPHLaunchSite = Runway
+	modded = True
+	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe  - 
+	versionFull = 1.8.1.2694 (WindowsPlayer x64)
+	versionCreated = 1.8.1.2694 (WindowsPlayer x64)
+	RemovedROCs
+	{
+	}
+	PARAMETERS
+	{
+		preset = Normal
+		FLIGHT
+		{
+			CanQuickSave = True
+			CanQuickLoad = True
+			CanAutoSave = True
+			CanUseMap = True
+			CanSwitchVesselsNear = True
+			CanSwitchVesselsFar = True
+			CanTimeWarpHigh = True
+			CanTimeWarpLow = True
+			CanEVA = True
+			CanIVA = True
+			CanBoard = True
+			CanRestart = True
+			CanLeaveToEditor = True
+			CanLeaveToTrackingStation = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = True
+		}
+		EDITOR
+		{
+			CanSave = True
+			CanLoad = True
+			CanStartNew = True
+			CanLaunch = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+			startUpMode = 0
+			craftFileToLoad = 
+		}
+		TRACKINGSTATION
+		{
+			CanFlyVessel = True
+			CanAbortVessel = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+		}
+		SPACECENTER
+		{
+			CanGoInVAB = True
+			CanGoInSPH = True
+			CanGoInTrackingStation = True
+			CanLaunchAtPad = True
+			CanLaunchAtRunway = True
+			CanGoToAdmin = True
+			CanGoToAstronautC = True
+			CanGoToMissionControl = True
+			CanGoToRnD = True
+			CanSelectFlag = True
+			CanLeaveToMainMenu = True
+		}
+		DIFFICULTY
+		{
+			AutoHireCrews = False
+			MissingCrewsRespawn = True
+			RespawnTimer = 7200
+			BypassEntryPurchaseAfterResearch = True
+			AllowStockVessels = True
+			IndestructibleFacilities = False
+			ResourceAbundance = 1
+			ReentryHeatScale = 1
+			EnableCommNet = True
+			AllowOtherLaunchSites = True
+		}
+		CAREER
+		{
+			TechTreeUrl = GameData\ModuleManager.TechTree
+			StartingFunds = 25000
+			StartingScience = 0
+			StartingReputation = 0
+			FundsGainMultiplier = 1
+			RepGainMultiplier = 1
+			ScienceGainMultiplier = 1
+			FundsLossMultiplier = 1
+			RepLossMultiplier = 1
+			RepLossDeclined = 1
+		}
+		AdvancedParams
+		{
+			EnableKerbalExperience = False
+			ImmediateLevelUp = False
+			AllowNegativeCurrency = False
+			PressurePartLimits = False
+			GPartLimits = False
+			GKerbalLimits = False
+			KerbalGToleranceMult = 1
+			ResourceTransferObeyCrossfeed = False
+			ActionGroupsAlways = False
+			BuildingImpactDamageMult = 0.05
+			PartUpgradesInSandbox = False
+			PartUpgradesInCareer = True
+			PartUpgradesInMission = False
+			EnableFullSASInSandbox = False
+		}
+		CommNetParams
+		{
+			requireSignalForControl = False
+			plasmaBlackout = False
+			rangeModifier = 1
+			DSNModifier = 1
+			occlusionMultiplierVac = 0.9
+			occlusionMultiplierAtm = 0.75
+			enableGroundStations = True
+		}
+		MissionParamsGeneral
+		{
+			enableFunding = False
+			startingFunds = 100000
+			spacer = 
+			enableKerbalLevels = False
+			kerbalLevelPilot = 4
+			kerbalLevelScientist = 4
+			kerbalLevelEngineer = 4
+			spacer2 = 
+			preventVesselRecovery = False
+		}
+		MissionParamsExtras
+		{
+			facilityOpenAC = False
+			astronautHiresAreFree = True
+			spacer = 
+			facilityOpenEditor = False
+			launchSitesOpen = True
+			spacer2 = 
+			cheatsEnabled = False
+		}
+		MissionParamsFacilities
+		{
+			facilityLevelAdmin = 3
+			facilityLevelAC = 3
+			facilityLevelLaunchpad = 3
+			facilityLevelMC = 3
+			facilityLevelRD = 3
+			facilityLevelRunway = 3
+			facilityLevelSPH = 3
+			facilityLevelTS = 3
+			facilityLevelVAB = 3
+		}
+	}
+	SCENARIO
+	{
+		name = ROCScenario
+		scene = 7
+	}
+	SCENARIO
+	{
+		name = PartUpgradeManager
+		scene = 6, 5, 7
+		UPGRADES
+		{
+			Unlocks
+			{
+			}
+			Enableds
+			{
+			}
+		}
+	}
+	SCENARIO
+	{
+		name = ResourceScenario
+		scene = 7, 8, 5, 6, 21
+		RESOURCE_SETTINGS
+		{
+			GameSeed = 1100458101
+			ROCMissionSeed = 1100458101
+			MaxDeltaTime = 21600
+		}
+	}
+	SCENARIO
+	{
+		name = ProgressTracking
+		scene = 7, 8, 5
+		Progress
+		{
+			FirstLaunch
+			{
+				completedManned = 173.14000000001477
+			}
+			FirstCrewToSurvive
+			{
+				completed = 330.91999999998899
+				crew
+				{
+					crews = Jebediah Kerman
+				}
+			}
+			RecordsAltitude
+			{
+				reached = 216.32000000003686
+				record = 969.36132445011754
+			}
+			RecordsSpeed
+			{
+				reached = 209.28000000003325
+				record = 237.04801386414536
+			}
+			RecordsDistance
+			{
+				reached = 213.24000000003528
+				record = 2312.4721642497366
+			}
+			Kerbin
+			{
+				reached = 230.10000000004391
+				Landing
+				{
+					completed = 230.10000000004391
+					vessel
+					{
+						name = SU-35
+						flag = Squad/Flags/default
+					}
+				}
+			}
+		}
+	}
+	SCENARIO
+	{
+		name = VesselRecovery
+		scene = 5, 7, 8, 6
+	}
+	SCENARIO
+	{
+		name = ScenarioAchievements
+		scene = 7, 8, 5, 6
+	}
+	SCENARIO
+	{
+		name = ScenarioCustomWaypoints
+		scene = 7, 8, 21
+	}
+	SCENARIO
+	{
+		name = ScenarioDestructibles
+		scene = 5, 7, 6, 8
+		SpaceCenter/Administration/Facility/mainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/AstronautComplex/Facility/building
+		{
+			intact = True
+		}
+		SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_cylTank
+		{
+			intact = True
+		}
+		SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_launchPad
+		{
+			intact = True
+		}
+		SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_sphereTank
+		{
+			intact = True
+		}
+		SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_waterTower
+		{
+			intact = True
+		}
+		SpaceCenter/LaunchPad/Facility/LaunchPadMedium/KSCFlagPoleLaunchPad
+		{
+			intact = True
+		}
+		SpaceCenter/MissionControl/Facility/building
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/ksp_pad_cylTank
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/SmallLab
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/CentralBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/MainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/CornerLab
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/WindTunnel
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/Observatory
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/SideLab
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_SE
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_NE
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_NW
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_SW
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/End09
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/End27
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/Section1
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/Section2
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/Section3
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/Section4
+		{
+			intact = True
+		}
+		SpaceCenter/SpaceplaneHangar/Facility/Tank
+		{
+			intact = True
+		}
+		SpaceCenter/SpaceplaneHangar/Facility/ksp_pad_cylTank
+		{
+			intact = True
+		}
+		SpaceCenter/SpaceplaneHangar/Facility/ksp_pad_waterTower
+		{
+			intact = True
+		}
+		SpaceCenter/SpaceplaneHangar/Facility/mainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/TrackingStation/Facility/dish_array/dish_south
+		{
+			intact = True
+		}
+		SpaceCenter/TrackingStation/Facility/dish_array/dish_north
+		{
+			intact = True
+		}
+		SpaceCenter/TrackingStation/Facility/dish_array/dish_east
+		{
+			intact = True
+		}
+		SpaceCenter/TrackingStation/Facility/MainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/VehicleAssemblyBuilding/Facility/ksp_pad_cylTank
+		{
+			intact = True
+		}
+		SpaceCenter/VehicleAssemblyBuilding/Facility/Tank
+		{
+			intact = True
+		}
+		SpaceCenter/VehicleAssemblyBuilding/Facility/mainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/VehicleAssemblyBuilding/Facility/PodMemorial
+		{
+			intact = True
+		}
+		SpaceCenter/FlagPole/Facility
+		{
+			intact = True
+		}
+	}
+	SCENARIO
+	{
+		name = ScenarioDiscoverableObjects
+		scene = 7, 8, 5
+		lastSeed = 1781894675
+		sizeCurve
+		{
+			key = 0 0 1.5 1.5
+			key = 0.3 0.45 0.875 0.875
+			key = 0.7 0.55 0.875 0.875
+			key = 1 1 1.5 1.5
+		}
+	}
+	SCENARIO
+	{
+		name = SentinelScenario
+		scene = 7, 8, 5
+		NextSpawnTime = 11378.325282340527
+	}
+	SCENARIO
+	{
+		name = CommNetScenario
+		scene = 7, 8, 5, 6
+	}
+	SCENARIO
+	{
+		name = DeployedScience
+		scene = 7, 8, 5, 6
+		ScienceTimeDelay = 60
+		DataSendFailedTimeDelay = 600
+		SCIENCECLUSTERS
+		{
+		}
+		DIMINISHINGRETURNS
+		{
+			ENTRY
+			{
+				ExpCount = 1
+				Rate = 1
+			}
+			ENTRY
+			{
+				ExpCount = 2
+				Rate = 0.200000003
+			}
+			ENTRY
+			{
+				ExpCount = 3
+				Rate = 0.349999994
+			}
+			ENTRY
+			{
+				ExpCount = 4
+				Rate = 0.449999988
+			}
+			ENTRY
+			{
+				ExpCount = 5
+				Rate = 0.5
+			}
+		}
+		SEISMICENERGY
+		{
+			MinimumEnergyRequired = 3000
+			SeismicScienceProcessingDelay = 3
+			ENTRY
+			{
+				BodyName = Moho
+				Energy = 2.02E+09
+			}
+			ENTRY
+			{
+				BodyName = Eve
+				Energy = 9.78000036E+10
+			}
+			ENTRY
+			{
+				BodyName = Gilly
+				Energy = 1000000
+			}
+			ENTRY
+			{
+				BodyName = Kerbin
+				Energy = 4.1840001E+10
+			}
+			ENTRY
+			{
+				BodyName = Mun
+				Energy = 782000000
+			}
+			ENTRY
+			{
+				BodyName = Minmus
+				Energy = 21200000
+			}
+			ENTRY
+			{
+				BodyName = Duna
+				Energy = 3.62E+09
+			}
+			ENTRY
+			{
+				BodyName = Ike
+				Energy = 223000000
+			}
+			ENTRY
+			{
+				BodyName = Dres
+				Energy = 258000000
+			}
+			ENTRY
+			{
+				BodyName = Laythe
+				Energy = 2.3600001E+10
+			}
+			ENTRY
+			{
+				BodyName = Vall
+				Energy = 2.48999987E+09
+			}
+			ENTRY
+			{
+				BodyName = Tylo
+				Energy = 3.38999992E+10
+			}
+			ENTRY
+			{
+				BodyName = Bop
+				Energy = 29900000
+			}
+			ENTRY
+			{
+				BodyName = Pol
+				Energy = 8660000
+			}
+			ENTRY
+			{
+				BodyName = Eeloo
+				Energy = 894000000
+			}
+		}
+	}
+	SCENARIO
+	{
+		name = TRScenario
+		scene = 5
+		reflectionType = Real
+		isAtmSuitEnabled = True
+		Kerbals
+		{
+			Jebediah Kerman = TR/male40 GENERIC
+			Bill Kerman = TR/male20 GENERIC
+			Bob Kerman = TR/male50 GENERIC
+			Valentina Kerman = TR/female10 GENERIC
+		}
+		ClassSuits
+		{
+		}
+	}
+	FLIGHTSTATE
+	{
+		version = 1.8.1
+		UT = 346.31999999997498
+		activeVessel = 0
+		mapViewFiltering = 31743
+		commNetUIModeTracking = Network
+		commNetUIModeFlight = Path
+		VESSEL
+		{
+			pid = fa6c35d0bd1441dc9c9fe656918d385f
+			persistentId = 4101730121
+			name = Ast.HSJ-227
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			skipGroundPositioning = False
+			vesselSpawning = True
+			launchedFrom = 
+			landedAt = 
+			displaylandedAt = 
+			splashed = False
+			met = 0.02
+			lct = 0.02
+			lastUT = -1
+			distanceTraveled = 0
+			root = 0
+			lat = -2.8344808899447411
+			lon = -178.91868872168402
+			alt = 14594724660.150644
+			hgt = -1
+			nrm = 0,1,0
+			rot = -0.298433661,0.402898014,-0.817398846,0.283672005
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			PQSMin = 0
+			PQSMax = 0
+			GroupOverride = 0
+			OverrideDefault = False,False,False,False
+			OverrideActionControl = 0,0,0,0
+			OverrideAxisControl = 0,0,0,0
+			OverrideGroupNames = ,,,
+			altDispState = DEFAULT
+			ORBIT
+			{
+				SMA = 15240601839.797161
+				ECC = 0.10916017139944575
+				INC = 2.8722370719559827
+				LPE = 2.1173075880609553
+				LAN = 261.773336557986
+				MNA = -0.055479955861920019
+				EPH = 2043585.7560839844
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 559298752
+				mid = 559298752
+				persistentId = 808795706
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				sameVesselCollision = False
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				staticPressureAtm = 0
+				expt = 1
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 0.02
+				lifetime = 586354.71038818359
+				refTime = 1728000
+				size = 4
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				AxisGroupsModule
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = 7782e648d8824106a1720ba6ed86f8d6
+			persistentId = 3690660541
+			name = Ast.XUC-428
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			skipGroundPositioning = False
+			vesselSpawning = True
+			launchedFrom = 
+			landedAt = 
+			displaylandedAt = 
+			splashed = False
+			met = 15.039999999999768
+			lct = 15.039999999999768
+			lastUT = -1
+			distanceTraveled = 0
+			root = 0
+			lat = 1.1750295685522048
+			lon = -176.97925026041594
+			alt = 15461159701.702206
+			hgt = -1
+			nrm = 0,1,0
+			rot = 0.323410153,-0.406737894,0.82250917,0.231189951
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			PQSMin = 0
+			PQSMax = 0
+			GroupOverride = 0
+			OverrideDefault = False,False,False,False
+			OverrideActionControl = 0,0,0,0
+			OverrideAxisControl = 0,0,0,0
+			OverrideGroupNames = ,,,
+			altDispState = DEFAULT
+			ORBIT
+			{
+				SMA = 16016850046.04575
+				ECC = 0.15149101336544565
+				INC = 1.1809244812168851
+				LPE = 176.04121370045209
+				LAN = 98.761337971911871
+				MNA = 0.040422039322772711
+				EPH = 2507460.743125
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 1245471819
+				mid = 1245471819
+				persistentId = 3530410621
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				sameVesselCollision = False
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				staticPressureAtm = 0
+				expt = 1
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 15.039999999999768
+				lifetime = 126424.89624023438
+				refTime = 1728000
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				AxisGroupsModule
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = cf6589a505ee4d68a3e42dd989d54d78
+			persistentId = 2414024648
+			name = Ast.DEZ-644
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			skipGroundPositioning = False
+			vesselSpawning = True
+			launchedFrom = 
+			landedAt = 
+			displaylandedAt = 
+			splashed = False
+			met = 45.060000000001445
+			lct = 45.060000000001445
+			lastUT = -1
+			distanceTraveled = 0
+			root = 0
+			lat = -1.2379579267343082
+			lon = -169.28744183290257
+			alt = 15502840211.238663
+			hgt = -1
+			nrm = 0,1,0
+			rot = 0.581552625,0.502254784,0.603252113,0.213596761
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			PQSMin = 0
+			PQSMax = 0
+			GroupOverride = 0
+			OverrideDefault = False,False,False,False
+			OverrideActionControl = 0,0,0,0
+			OverrideAxisControl = 0,0,0,0
+			OverrideGroupNames = ,,,
+			altDispState = DEFAULT
+			ORBIT
+			{
+				SMA = 14901150809.603144
+				ECC = 0.088153325398650409
+				INC = 2.4328528810973857
+				LPE = 345.38696716485202
+				LAN = 340.1779159881425
+				MNA = 0.13079528099258289
+				EPH = 3951775.2113671876
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 2101660770
+				mid = 2101660770
+				persistentId = 906805078
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				sameVesselCollision = False
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				staticPressureAtm = 0
+				expt = 1
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 45.060000000001445
+				lifetime = 268680.71365356445
+				refTime = 1728000
+				size = 1
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				AxisGroupsModule
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = e6e5e6faa08a41b88b3ae0f660ff90a4
+			persistentId = 3901706227
+			name = Ast.WMX-830
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			skipGroundPositioning = False
+			vesselSpawning = True
+			launchedFrom = 
+			landedAt = 
+			displaylandedAt = 
+			splashed = False
+			met = 60.060000000003789
+			lct = 60.060000000003789
+			lastUT = -1
+			distanceTraveled = 0
+			root = 0
+			lat = -0.5129567362377262
+			lon = -178.1113433513957
+			alt = 13635678137.922922
+			hgt = -1
+			nrm = 0,1,0
+			rot = -0.824445367,0.120248444,0.244996026,0.495789289
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			PQSMin = 0
+			PQSMax = 0
+			GroupOverride = 0
+			OverrideDefault = False,False,False,False
+			OverrideActionControl = 0,0,0,0
+			OverrideAxisControl = 0,0,0,0
+			OverrideGroupNames = ,,,
+			altDispState = DEFAULT
+			ORBIT
+			{
+				SMA = 13649887615.725176
+				ECC = 0.018880324772508426
+				INC = 0.57831195759362619
+				LPE = 46.525907125106116
+				LAN = 299.44212872585581
+				MNA = -1.1925996117573512
+				EPH = 2444600.2455468751
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 1265487187
+				mid = 1265487187
+				persistentId = 1693452929
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				sameVesselCollision = False
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				staticPressureAtm = 0
+				expt = 1
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 60.060000000003789
+				lifetime = 1713441.8518066406
+				refTime = 1728000
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				AxisGroupsModule
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = 8c97c3e0d7a949fa8d97396b2f9f8733
+			persistentId = 2455915041
+			name = Ast.UWA-529
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			skipGroundPositioning = False
+			vesselSpawning = True
+			launchedFrom = 
+			landedAt = 
+			displaylandedAt = 
+			splashed = False
+			met = 150.08000000000297
+			lct = 150.08000000000297
+			lastUT = -1
+			distanceTraveled = 0
+			root = 0
+			lat = -0.054196641090042796
+			lon = -178.67241330258213
+			alt = 13397236362.457037
+			hgt = -1
+			nrm = 0,1,0
+			rot = 0.48598358,-0.0244884249,-0.546297073,0.681747496
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			PQSMin = 0
+			PQSMax = 0
+			GroupOverride = 0
+			OverrideDefault = False,False,False,False
+			OverrideActionControl = 0,0,0,0
+			OverrideAxisControl = 0,0,0,0
+			OverrideGroupNames = ,,,
+			altDispState = DEFAULT
+			ORBIT
+			{
+				SMA = 13628424589.638821
+				ECC = 0.0047649953186148248
+				INC = 0.40149424581961407
+				LPE = 69.592330172680718
+				LAN = 353.6948908569625
+				MNA = -1.125123280049646
+				EPH = 4561343.9276562501
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 1779849178
+				mid = 1779849178
+				persistentId = 3317971602
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				sameVesselCollision = False
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				staticPressureAtm = 0
+				expt = 1
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 150.08000000000297
+				lifetime = 711759.1552734375
+				refTime = 1728000
+				size = 1
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				AxisGroupsModule
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = edff21a228ea45cba046b128b8ddb875
+			persistentId = 2169583115
+			name = Ast.CUO-336
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			skipGroundPositioning = False
+			vesselSpawning = True
+			launchedFrom = 
+			landedAt = 
+			displaylandedAt = 
+			splashed = False
+			met = 162.34000000000924
+			lct = 162.34000000000924
+			lastUT = -1
+			distanceTraveled = 0
+			root = 0
+			lat = -0.16462609275880702
+			lon = -172.59335212341406
+			alt = 14293124792.736229
+			hgt = -1
+			nrm = 0,1,0
+			rot = 0.509739399,-0.806889534,0.102909543,0.280186683
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			PQSMin = 0
+			PQSMax = 0
+			GroupOverride = 0
+			OverrideDefault = False,False,False,False
+			OverrideActionControl = 0,0,0,0
+			OverrideAxisControl = 0,0,0,0
+			OverrideGroupNames = ,,,
+			altDispState = DEFAULT
+			ORBIT
+			{
+				SMA = 14072439592.469378
+				ECC = 0.036221369368499151
+				INC = 0.18009219891725825
+				LPE = 95.694512710923746
+				LAN = 253.62309043689805
+				MNA = -0.3834970593454049
+				EPH = 3726342.6256445311
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 2119221542
+				mid = 2119221542
+				persistentId = 2878167601
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				sameVesselCollision = False
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				staticPressureAtm = 0
+				expt = 1
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 162.34000000000924
+				lifetime = 681375.75073242188
+				refTime = 1728000
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				AxisGroupsModule
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = b4a4cb7141fd42d88cf5927db7261d4a
+			persistentId = 1145777580
+			name = Ast.PSZ-698
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			skipGroundPositioning = False
+			vesselSpawning = True
+			launchedFrom = 
+			landedAt = 
+			displaylandedAt = 
+			splashed = False
+			met = 192.38000000002461
+			lct = 192.38000000002461
+			lastUT = -1
+			distanceTraveled = 0
+			root = 0
+			lat = -0.033424187691150326
+			lon = -169.87264801216304
+			alt = 14101779618.448311
+			hgt = -1
+			nrm = 0,1,0
+			rot = -0.367025673,0.677542686,-0.0467783734,0.635641277
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			PQSMin = 0
+			PQSMax = 0
+			GroupOverride = 0
+			OverrideDefault = False,False,False,False
+			OverrideActionControl = 0,0,0,0
+			OverrideAxisControl = 0,0,0,0
+			OverrideGroupNames = ,,,
+			altDispState = DEFAULT
+			ORBIT
+			{
+				SMA = 13971073026.782907
+				ECC = 0.030722436622640761
+				INC = 0.29875516737800295
+				LPE = 29.656819441628464
+				LAN = 3.8641299829852187
+				MNA = -0.46537084217412411
+				EPH = 4738110.3243359374
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 1781894675
+				mid = 1781894675
+				persistentId = 942929524
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				sameVesselCollision = False
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				staticPressureAtm = 0
+				expt = 1
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 192.38000000002461
+				lifetime = 745249.85046386719
+				refTime = 1728000
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				AxisGroupsModule
+				{
+				}
+			}
+		}
+	}
+	LoaderInfo
+	{
+		ModuleManager v4.0.2.0 = True
+		scatterer v0.0.0.0 = True
+		DistantObject v1.9.1.23037 = True
+		Atmosphere v1.4.2.2 = True
+		CelestialShadows v1.4.2.2 = True
+		CityLights v1.4.2.2 = True
+		EVEManager v1.4.2.2 = True
+		PartFX v1.4.2.2 = True
+		PQSManager v1.4.2.2 = True
+		ShaderLoader v1.4.2.2 = True
+		Terrain v1.4.2.2 = True
+		TextureConfig v1.4.2.2 = True
+		Utils v1.4.2.2 = True
+		_BuildManager v1.4.2.2 = True
+		ModularFlightIntegrator v1.0.0.0 / v1.2.6.0 = True
+		SmokeScreen v2.8.0.0 = True
+		TextureReplacer v3.5.1.4238 = True
+		BoulderCo = True
+		DistantObject = True
+		EnvironmentalVisualEnhancements = True
+		GEATerrain = True
+		ModularFlightIntegrator = True
+		RealPlume = True
+		RealPlume-Stock = True
+		RJsTerraforming = True
+		SmokeScreen = True
+		TextureReplacer = True
+		KSPLibraries.7z = True
+		LICENSE.txt = True
+		LunaMultiplayer-master.zip = True
+		LunaMultiplayer-Release.zip = True
+		ModuleManager.4.0.2.dll = True
+		ModuleManager.ConfigCache = True
+		ModuleManager.ConfigSHA = True
+		ModuleManager.Physics = True
+		ModuleManager.TechTree = True
+		Scatterer-master.zip = True
+		scatterer.dll = True
+	}
+	ROSTER
+	{
+		KERBAL
+		{
+			name = Jebediah Kerman
+			gender = Male
+			type = Crew
+			trait = Pilot
+			brave = 0.5
+			dumb = 0.5
+			badS = True
+			veteran = True
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			hasHelmetOn = False
+			hasNeckRingOn = False
+			lightR = 1
+			lightG = 0.5176
+			lightB = 0
+			completedFirstEVA = True
+			suit = Default
+			hero = True
+			EVACHUTE
+			{
+				name = ModuleEvaChute
+				isEnabled = True
+				chuteYawRateAtMaxSpeed = 1
+				chuteMaxSpeedForYawRate = 50
+				chuteYawRateAtMinSpeed = 1
+				chuteMinSpeedForYawRate = 1
+				chuteRollRate = 1
+				chutePitchRate = 1
+				chuteDefaultForwardPitch = 9
+				semiDeployedChuteForwardPitch = 25
+				chutePitchRateDivisorWhenTurning = 1
+				chuteRollRateDivisorWhenPitching = 1
+				chuteYawRateDivisorWhenPitching = 1
+				persistentState = STOWED
+				animTime = 0
+				minAirPressureToOpen = 0.0399999991
+				deployAltitude = 800
+				spreadAngle = 7
+				automateSafeDeploy = 0
+				stagingEnabled = False
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+					DeployAction
+					{
+						actionGroup = None
+					}
+					CutAction
+					{
+						actionGroup = None
+					}
+				}
+				UPGRADESAPPLIED
+				{
+				}
+			}
+			CAREER_LOG
+			{
+				flight = 1
+				0 = Land,Kerbin
+				0 = Flight,Kerbin
+				0 = ExitVessel,Kerbin
+				0 = Recover
+			}
+			FLIGHT_LOG
+			{
+				flight = 1
+			}
+		}
+		KERBAL
+		{
+			name = Bill Kerman
+			gender = Male
+			type = Crew
+			trait = Engineer
+			brave = 0.5
+			dumb = 0.800000012
+			badS = False
+			veteran = True
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			hasHelmetOn = False
+			hasNeckRingOn = False
+			lightR = 1
+			lightG = 0.5176
+			lightB = 0
+			completedFirstEVA = False
+			suit = Default
+			hero = True
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Bob Kerman
+			gender = Male
+			type = Crew
+			trait = Scientist
+			brave = 0.300000012
+			dumb = 0.100000001
+			badS = False
+			veteran = True
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			hasHelmetOn = False
+			hasNeckRingOn = False
+			lightR = 1
+			lightG = 0.5176
+			lightB = 0
+			completedFirstEVA = False
+			suit = Default
+			hero = True
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Valentina Kerman
+			gender = Female
+			type = Crew
+			trait = Pilot
+			brave = 0.550000012
+			dumb = 0.400000006
+			badS = True
+			veteran = True
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			hasHelmetOn = False
+			hasNeckRingOn = False
+			lightR = 1
+			lightG = 0.5176
+			lightB = 0
+			completedFirstEVA = False
+			suit = Default
+			hero = True
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+	}
+	MESSAGESYSTEM
+	{
+		flash = False
+	}
+}
