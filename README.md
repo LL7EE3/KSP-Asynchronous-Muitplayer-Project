@@ -1,4 +1,6 @@
 # KSP-Asynchronous-Muitplayer-Project
+更新范围是整个存档文件夹，需要的时候可以Fetch。
+
 进行太空活动前请更新存档！请勿删掉残骸，即使是太空垃圾也别删！东西多了才热闹
 
  游戏版本：KarbalSpaceProgram 1.8.1  
