@@ -353,7 +353,7 @@ PART
 	resPri = 0
 	dstg = 1
 	sidx = 1
-	sqor = 1
+	sqor = 2
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
@@ -710,7 +710,7 @@ PART
 	resPri = 0
 	dstg = 1
 	sidx = 0
-	sqor = 3
+	sqor = 4
 	sepI = 3
 	attm = 0
 	sameVesselCollision = False
@@ -1430,7 +1430,7 @@ PART
 	resPri = 0
 	dstg = 2
 	sidx = 0
-	sqor = 4
+	sqor = 5
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
@@ -1674,7 +1674,7 @@ PART
 	resPri = 0
 	dstg = 3
 	sidx = 1
-	sqor = 4
+	sqor = 5
 	sepI = 4
 	attm = 0
 	sameVesselCollision = False
@@ -1975,7 +1975,7 @@ PART
 	resPri = 0
 	dstg = 4
 	sidx = 2
-	sqor = 7
+	sqor = 8
 	sepI = 4
 	attm = 0
 	sameVesselCollision = False
@@ -2218,7 +2218,7 @@ PART
 	resPri = 0
 	dstg = 5
 	sidx = 0
-	sqor = 6
+	sqor = 7
 	sepI = 6
 	attm = 1
 	sameVesselCollision = False
@@ -2335,7 +2335,7 @@ PART
 	resPri = 0
 	dstg = 5
 	sidx = 0
-	sqor = 6
+	sqor = 7
 	sepI = 6
 	attm = 1
 	sameVesselCollision = False
@@ -2452,7 +2452,7 @@ PART
 	resPri = 0
 	dstg = 5
 	sidx = 0
-	sqor = 6
+	sqor = 7
 	sepI = 6
 	attm = 1
 	sameVesselCollision = False
@@ -2569,7 +2569,7 @@ PART
 	resPri = 0
 	dstg = 5
 	sidx = 0
-	sqor = 6
+	sqor = 7
 	sepI = 6
 	attm = 1
 	sameVesselCollision = False
@@ -2686,7 +2686,7 @@ PART
 	resPri = 0
 	dstg = 6
 	sidx = 0
-	sqor = 7
+	sqor = 8
 	sepI = 6
 	attm = 1
 	sameVesselCollision = False
@@ -2864,7 +2864,7 @@ PART
 	resPri = 0
 	dstg = 6
 	sidx = 0
-	sqor = 7
+	sqor = 8
 	sepI = 6
 	attm = 1
 	sameVesselCollision = False
@@ -3023,7 +3023,7 @@ PART
 	pos = 1.91533613,5.37867737,0.0813443512
 	attPos = -0.00108462572,-0.975318909,-1.49289264E-07
 	attPos0 = -0.798915505,-0.224681824,1.52616053E-08
-	rot = 1.49102153E-08,0.707106948,-1.49102348E-08,0.707106709
+	rot = 1.49102153E-08,0.707106948,-1.4910233E-08,0.707106709
 	attRot = 0,0,0,1
 	attRot0 = 0,-0.707106829,0,0.707106829
 	mir = 1,1,1
@@ -3034,7 +3034,7 @@ PART
 	resPri = 0
 	dstg = 6
 	sidx = 0
-	sqor = 7
+	sqor = 8
 	sepI = 6
 	attm = 1
 	sameVesselCollision = False
@@ -3193,7 +3193,7 @@ PART
 	pos = -0.120724827,5.37867737,-1.95471573
 	attPos = -0.0010843873,-0.975318909,-1.19209318E-07
 	attPos0 = -0.798915505,-0.224681824,0
-	rot = -1.42108547E-14,1,-2.10862332E-08,-8.94069672E-08
+	rot = -1.15463195E-14,1,-2.10862332E-08,-8.94069672E-08
 	attRot = 0,0,0,1
 	attRot0 = 1.25683733E-15,-0.707106829,0,0.707106829
 	mir = 1,1,1
@@ -3204,7 +3204,7 @@ PART
 	resPri = 0
 	dstg = 6
 	sidx = 0
-	sqor = 7
+	sqor = 8
 	sepI = 6
 	attm = 1
 	sameVesselCollision = False
@@ -3374,7 +3374,7 @@ PART
 	resPri = 0
 	dstg = 5
 	sidx = 1
-	sqor = 6
+	sqor = 7
 	sepI = 6
 	attm = 0
 	sameVesselCollision = False
@@ -3500,7 +3500,7 @@ PART
 	resPri = 0
 	dstg = 5
 	sidx = 1
-	sqor = 6
+	sqor = 7
 	sepI = 6
 	attm = 0
 	sameVesselCollision = False
@@ -3615,7 +3615,7 @@ PART
 	pos = 1.91533637,9.3007431,0.0813443512
 	attPos = 0,0,0
 	attPos0 = -6.94436032E-14,3.92206573,5.96046377E-08
-	rot = -5.32907052E-15,1.00000012,-1.3827635E-15,-8.79582274E-09
+	rot = -7.10542736E-15,1.00000012,-1.01486723E-15,-8.79582274E-09
 	attRot = 0,0,0,1
 	attRot0 = -1.49102188E-08,0.707106769,-1.49102153E-08,0.707106888
 	mir = 1,1,1
@@ -3626,7 +3626,7 @@ PART
 	resPri = 0
 	dstg = 5
 	sidx = 1
-	sqor = 6
+	sqor = 7
 	sepI = 6
 	attm = 0
 	sameVesselCollision = False
@@ -3741,7 +3741,7 @@ PART
 	pos = -0.120724827,9.3007431,-1.95471573
 	attPos = 0,0,0
 	attPos0 = -4.03193104E-14,3.92206573,-1.78813863E-07
-	rot = -1.77635684E-15,0.707106829,1.77527751E-15,-0.707106829
+	rot = 0,0.707106829,-1.07933173E-18,-0.707106829
 	attRot = 0,0,0,1
 	attRot0 = -1.49102206E-08,0.707106769,-1.49102153E-08,0.707106888
 	mir = 1,1,1
@@ -3752,7 +3752,7 @@ PART
 	resPri = 0
 	dstg = 5
 	sidx = 1
-	sqor = 6
+	sqor = 7
 	sepI = 6
 	attm = 0
 	sameVesselCollision = False
@@ -3864,7 +3864,7 @@ PART
 	part = winglet_4294312056
 	partName = Part
 	persistentId = 327691760
-	pos = -2.76597595,2.5253067,-1.01195931
+	pos = -2.76597595,2.5253067,-1.01195908
 	attPos = 0,0,0
 	attPos0 = -1.0837636,-2.8508606,0.625710905
 	rot = -0.113038875,-0.495722532,-0.0652630404,0.858616471
@@ -3934,7 +3934,7 @@ PART
 	pos = -1.21402752,2.5253067,2.7265954
 	attPos = 0,0,0
 	attPos0 = -1.0837636,-2.8508606,0.625710785
-	rot = -0.126078501,0.256604761,0.0337826237,0.957662344
+	rot = -0.126078486,0.256604731,0.03378262,0.957662284
 	attRot = 0.130526096,1.51770124E-07,-3.25845591E-08,-0.991444826
 	attRot0 = 1.28379245E-08,-0.258819044,4.79118114E-08,-0.965925813
 	mir = 1,1,1
@@ -3998,7 +3998,7 @@ PART
 	part = winglet_4294311628
 	partName = Part
 	persistentId = 838028238
-	pos = 2.52452874,2.5253067,1.17464876
+	pos = 2.5245285,2.5253067,1.17464852
 	attPos = 0,0,0
 	attPos0 = -1.08376384,-2.8508606,0.625711024
 	rot = -0.0652630329,0.85861659,0.113038912,0.495722473
@@ -4068,7 +4068,7 @@ PART
 	pos = 0.972577929,2.5253067,-2.56390643
 	attPos = 0,0,0
 	attPos0 = -1.0837636,-2.8508606,0.625710905
-	rot = 0.0337826312,0.957662344,0.126078516,-0.256604761
+	rot = 0.0337826274,0.957662284,0.126078501,-0.256604731
 	attRot = -0.130526096,-1.51770124E-07,3.25845591E-08,-0.991444826
 	attRot0 = 1.28379281E-08,-0.258819044,4.79118114E-08,-0.965925813
 	mir = 1,1,-1
@@ -4132,7 +4132,7 @@ PART
 	part = winglet_4294312182
 	partName = Part
 	persistentId = 663732197
-	pos = -2.76791358,2.61743164,1.17800105
+	pos = -2.76791334,2.61743164,1.17800081
 	attPos = 0,0,0
 	attPos0 = 1.087116,-2.75873566,0.627646506
 	rot = 0.113039002,0.495722473,-0.0652630553,0.858616412
@@ -4266,10 +4266,10 @@ PART
 	part = winglet_4294311490
 	partName = Part
 	persistentId = 2817806546
-	pos = 2.52646255,2.61743164,-1.01531243
+	pos = 2.52646255,2.61743164,-1.01531219
 	attPos = 0,0,0
 	attPos0 = 1.08711624,-2.75873566,0.627646625
-	rot = -0.0652630478,0.858616412,-0.113038942,-0.495722651
+	rot = -0.0652630553,0.858616412,-0.11303895,-0.495722651
 	attRot = -0.130526185,-3.84877339E-08,5.81928949E-09,0.991444826
 	attRot0 = 3.3509636E-08,0.965925872,8.97888253E-09,0.258819044
 	mir = 1,1,-1
@@ -4414,7 +4414,7 @@ PART
 	resPri = 0
 	dstg = 4
 	sidx = 1
-	sqor = 7
+	sqor = 8
 	sepI = 7
 	attm = 1
 	sameVesselCollision = False
@@ -4535,7 +4535,7 @@ PART
 	resPri = 0
 	dstg = 4
 	sidx = 1
-	sqor = 7
+	sqor = 8
 	sepI = 7
 	attm = 1
 	sameVesselCollision = False
@@ -4656,7 +4656,7 @@ PART
 	resPri = 0
 	dstg = 4
 	sidx = 1
-	sqor = 7
+	sqor = 8
 	sepI = 7
 	attm = 1
 	sameVesselCollision = False
@@ -4777,7 +4777,7 @@ PART
 	resPri = 0
 	dstg = 4
 	sidx = 1
-	sqor = 7
+	sqor = 8
 	sepI = 7
 	attm = 1
 	sameVesselCollision = False
@@ -4898,7 +4898,7 @@ PART
 	resPri = 0
 	dstg = 2
 	sidx = 1
-	sqor = 3
+	sqor = 4
 	sepI = 3
 	attm = 0
 	sameVesselCollision = False
@@ -6320,7 +6320,7 @@ PART
 	resPri = 0
 	dstg = 3
 	sidx = 0
-	sqor = 2
+	sqor = 3
 	sepI = 2
 	attm = 0
 	sameVesselCollision = False
@@ -7668,7 +7668,7 @@ PART
 	resPri = 0
 	dstg = 7
 	sidx = 0
-	sqor = 5
+	sqor = 6
 	sepI = 5
 	attm = 0
 	sameVesselCollision = False
@@ -7783,7 +7783,7 @@ PART
 	resPri = 0
 	dstg = 8
 	sidx = 1
-	sqor = 5
+	sqor = 6
 	sepI = 5
 	attm = 0
 	sameVesselCollision = False
@@ -7922,7 +7922,7 @@ PART
 	resPri = 0
 	dstg = 5
 	sidx = 0
-	sqor = 1
+	sqor = 2
 	sepI = 2
 	attm = 1
 	sameVesselCollision = False
@@ -8046,7 +8046,7 @@ PART
 	resPri = 0
 	dstg = 5
 	sidx = 0
-	sqor = 1
+	sqor = 2
 	sepI = 2
 	attm = 1
 	sameVesselCollision = False
@@ -8239,7 +8239,7 @@ PART
 	resPri = 0
 	dstg = 5
 	sidx = 0
-	sqor = 0
+	sqor = 1
 	sepI = 2
 	attm = 1
 	sameVesselCollision = False
@@ -8350,7 +8350,7 @@ PART
 	part = parachuteRadial_4293698328
 	partName = Part
 	persistentId = 2574452010
-	pos = -0.120724678,27.1406937,1.15068126
+	pos = -0.120724678,27.1406937,1.15068102
 	attPos = 0.0763100386,1.43051147E-06,0
 	attPos0 = 0,-0.0440177917,1.06933641
 	rot = -6.5722463E-09,-0.981884599,0.189480096,-1.58541127E-08
@@ -8364,7 +8364,7 @@ PART
 	resPri = 0
 	dstg = 5
 	sidx = 0
-	sqor = 0
+	sqor = 1
 	sepI = 2
 	attm = 1
 	sameVesselCollision = False
@@ -8489,7 +8489,7 @@ PART
 	resPri = 0
 	dstg = 5
 	sidx = 0
-	sqor = 0
+	sqor = 1
 	sepI = 2
 	attm = 1
 	sameVesselCollision = False
