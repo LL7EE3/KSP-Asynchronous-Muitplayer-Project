@@ -1,4 +1,4 @@
-shipName = 龙腾-2F
+shipName = 飞龙-2F
 description = 用来运送载人和货运飞船的中型火箭，发射成功率高达13%！购买即送一艘太古-1飞船！
 version = 1.8.1
 partCount = 71
@@ -81,4 +81,4 @@ partModules = ModuleAblator
 partModules = ModuleColorChanger
 partModules = FlagDecal
 partModules = ModuleDockingNode
-saveMD5 = 1b1e5e07aeb7fb34cc5856fb8717e9a3
+saveMD5 = 1543b4d128e324b5f461f809d6fba8dd
